@@ -67,7 +67,7 @@ class _VideoDetailPageState extends State<VideoDetailPage> {
           ),
           ListTile(
             title: Text(
-              'titulo',
+              widget.videoModel.snippet.title,
               style: TextStyle(
                 height: 1.3,
                 color: Colors.white,
